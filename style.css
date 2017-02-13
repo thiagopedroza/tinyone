@@ -1,0 +1,235 @@
+html, body {
+	overflow-x: hidden;
+}
+
+.black {
+	color: #000;
+}
+
+.my_paragraph {
+	font-size: 15px;
+}
+
+.my_margin {
+	margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.my_margin2 {
+	margin-bottom: 163px;
+}
+
+.my_padding {
+	padding-left: 63px;
+	margin-top: 3px;
+}
+
+
+
+/*** Sector 1 ***/
+
+.navbar-toggle {
+	margin-top: 20px;
+}
+
+.navbar-collapse.in {
+    overflow-y: inherit;
+}
+
+.bg-color {
+	background-color: #fcdb00;
+}
+
+#navigacija {
+	padding-top: 45px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    display: inline;
+}
+
+.navbar-nav>li>a {
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 55px;
+}
+
+.navbar-right {
+	margin-right: -35px;
+}
+
+.itemInfo {
+	margin-top: 70px;
+}
+
+#icons {
+	margin-top: 40px;
+}
+
+#icons img {
+	margin-right: 40px;
+}
+
+#iPad {
+	margin-top: 25px;
+	margin-bottom: 110px;
+}
+
+.carousel-indicators {
+    bottom: 34px;
+}
+
+
+.carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+}
+
+.carousel-indicators .active {
+	width: 16px;
+	height: 16px;
+}
+
+/*** Sector 2 ***/
+
+.bg-color2 {
+	background-color: #fff;
+}
+
+#features {
+	margin-top: 113px;
+}
+
+.fleft {
+	float: left;
+}
+
+.row_margin {
+	margin-top: 87px;
+}
+
+/*** Sector 3 ***/
+
+.bg-color3 {
+	background-color: #242427;
+}
+
+.font-color {
+	color: #fff;
+}
+
+#touch {
+	color: #fcdb00;
+	margin-top: 97px;
+	margin-bottom: 15px;
+}
+
+#my_margin3 {
+	margin-top: 97px;
+	margin-bottom: 15px;
+}
+
+.btn-lg {
+    padding: 10px 35px;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+}
+
+.input-lg {
+	margin-top: 10px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul a, address a {
+	color: #fff;
+}
+
+ul a:hover, address a:hover {
+	text-decoration: none;
+	color: #fcdb00;
+}
+
+#input {
+	margin-top: 30px;
+	margin-bottom: 78px;
+}
+
+#icons2 {
+	margin-bottom: 130px;
+	text-align: center;
+}
+
+#pix, 
+#google, 
+#twitter {
+	margin-left: 21px;
+}
+
+#pix:hover, 
+#google:hover, 
+#twitter:hover, 
+#facebook:hover {
+	opacity: 0.6;
+}
+
+
+
+
+/*** Media Queries ***/
+
+@media only screen and (max-width: 767px) {
+
+	#navigacija {
+	    padding-top: 20px;
+	}
+
+	.itemInfo {
+	    margin-top: 30px;
+	}
+
+	#features {
+	    margin-top: 40px;
+	}
+
+	.my_margin2 {
+	    margin-bottom: 40px;
+	}
+
+	#touch {
+		margin-top: 40px;
+	}
+
+	#icons2 {
+		margin-bottom: 40px;
+	}
+
+	#sredina {
+		text-align: center;
+	}
+}
